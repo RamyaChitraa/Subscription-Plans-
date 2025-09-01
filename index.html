@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subscription Plans</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #ff69b4;
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 20px;
+    }
+
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .plan-box {
+      background-color: #000;
+      color: #fff;
+      width: 220px;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .plan-price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .plan-name {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    .feature-list li {
+      margin: 10px 0;
+      color: #fff;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    .feature-list li::before {
+      content: "●";
+      color: #5b1bca;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Choose your Subscription Today</div>
+
+  <div class="plans">
+    <div class="plan-box">
+      <div class="plan-price">0/-</div>
+      <div class="plan-name">Free</div>
+      <ul class="feature-list">
+        <li>Listen to Music</li>
+        <li>Share Links</li>
+        <li>Create a Playlist</li>
+        <li>Ad free Music</li>
+        <li>Download Music</li>
+        <li>Upload your music</li>
+      </ul>
+    </div>
+
+    <div class="plan-box">
+      <div class="plan-price">499/-</div>
+      <div class="plan-name">Standard</div>
+      <ul class="feature-list">
+        <li>Listen to Music</li>
+        <li>Share Links</li>
+        <li>Create a Playlist</li>
+        <li>Ad free Music</li>
+        <li>Download Music</li>
+        <li>Upload your music</li>
+      </ul>
+    </div>
+
+    <div class="plan-box">
+      <div class="plan-price">699/-</div>
+      <div class="plan-name">Premium</div>
+      <ul class="feature-list">
+        <li>Listen to Music</li>
+        <li>Share Links</li>
+        <li>Create a Playlist</li>
+        <li>Ad free Music</li>
+        <li>Download Music</li>
+        <li>Upload your music</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
